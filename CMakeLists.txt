@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.12)
+# Reduced minimum version (from 3.12) to support ubuntu 18.
+cmake_minimum_required(VERSION 3.10)
 
 project(s2-geometry
 	VERSION 0.10.0)
